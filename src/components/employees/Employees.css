@@ -1,0 +1,25 @@
+.employee {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px dotted gray;
+    background-color: seashell;
+    width: 22%;
+    color: black;
+    text-align: center;
+}
+
+#employees {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#employeeDetails > header {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#employeeDetails > footer {
+    margin-top: 0.5rem;
+    font-style: italic;
+}

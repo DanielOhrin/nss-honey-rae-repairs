@@ -1,0 +1,20 @@
+.customer {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px dotted gray;
+    background-color: seashell;
+    width: 22%;
+    color: black;
+    text-align: center;
+}
+
+#customers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#customerDetails > header {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}

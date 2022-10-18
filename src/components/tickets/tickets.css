@@ -1,0 +1,17 @@
+#tickets {
+    display: flex;
+    flex-direction: column;
+    border: thin solid black
+}
+
+.ticket {
+    border: 0.1rem dotted blue;
+    background-color: aqua;
+    margin: 0.5rem;
+    padding: 0.7rem;
+}
+
+.ticket > p {
+    margin: 0.5rem;
+    padding: 0.7rem;
+}
